@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-form {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.preview-img {
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Pratinjau gambar sebelum diunggah */
+.preview-box {
+    display: none;
+    margin-top: 12px;
+    border: 2px dashed #0d6efd;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.preview-box img {
+    max-width: 100%;
+    max-height: 220px;
+    border-radius: 4px;
+    object-fit: cover;
+}

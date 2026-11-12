@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* ---------- Kartu project (tampilan etalase_stella) ---------- */
+.project-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-img {
+    height: 200px;
+    object-fit: cover;
+}

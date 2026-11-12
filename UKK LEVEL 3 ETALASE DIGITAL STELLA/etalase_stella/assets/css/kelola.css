@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.table-custom th {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.badge-role {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.badge-super_admin { background: #dc3545; color: #fff; }
+.badge-admin       { background: #ffc107; color: #000; }
+.badge-siswa       { background: #17a2b8; color: #fff; }
